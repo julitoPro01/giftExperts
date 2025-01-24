@@ -15,5 +15,5 @@ Una aplicación sencilla desarrollada con **React** que consume la API de **Giph
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/nombre-del-repositorio.git
+   git clone https://github.com/julitoPro01/giftExperts.git
 
