@@ -18,12 +18,14 @@ export const GiftCard = ({category}) => {
 
     return (
         <>
-        <h2> {category} </h2>
+        <h2 style={{backgroundColor:"gray",borderRadius:'10px'}} > {category}
+        <hr />
+        </h2>
         {giftCards.length===0 && <h4>is loading...</h4> }
             {
                 giftCards.map(item => (
                     <div key={item.id} className="gift">
-                        <p> {item.title} </p>
+                        <p style={{padding:'15px',backgroundColor:'#EAEAEA'}} > {item.title} </p>
                         <img src={item.img} alt={item.img.split(' ')[0]} />
 
                     </div>

@@ -25,7 +25,8 @@ export const GiftMenuFilter = ({onFilterGift}) => {
         <ol>
             {
                 giftCards.map(item=>(
-                    <li key={item} onClick={(e)=>oneFilterGift(e,item)}>
+                    <li key={item} onClick={(e)=>oneFilterGift(e,item)}
+                    style={{paddingRight:"10px"}}>
                          <span className="gift_delete" >X</span> 
                     {item} </li>
                 ))
